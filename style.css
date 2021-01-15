@@ -1,0 +1,90 @@
+.lesicons {
+  margin-left: 310px;
+}
+.letexte {
+  font-family: "Courier New", Courier, monospace;
+}
+.navbar-nav {
+  /*display: flex;
+  justify-content: space-around;*/
+  border: 1px rgb(61, 61, 61) solid;
+  border-radius: 3px;
+}
+
+.navbor {
+  border-right: 1px rgb(61, 61, 61) solid;
+}
+.premierephoto {
+  margin-top: -9px;
+}
+.section2 {
+  background-color: rgb(223, 219, 219);
+  border-radius: 8px;
+}
+section3 {
+}
+.droite::before {
+  content: "";
+  position: absolute;
+  width: 1px;
+  height: 60%;
+  left: 0px;
+  bottom: 26%;
+  /*top: 25%;*/
+  background-color: white;
+}
+.gauche {
+  background-color: white;
+  border-radius: 4px;
+  color: gray;
+  font-weight: bold;
+}
+.fin {
+  background-color: rgb(223, 219, 219);
+  padding: none;
+}
+ul li {
+  list-style-type: none;
+}
+li a {
+  font-size: 13px;
+}
+.lafin {
+  background-color: rgb(6, 6, 68);
+}
+span {
+  font-size: 13px;
+}
+.droite {
+  padding-left: 0;
+  padding-right: 0;
+} /*
+.logosaham {
+  height: 60%;
+  width: auto;
+}*/
+
+/*Media queries*/
+@media all and (max-width: 960px) {
+  .lesnone {
+    display: none;
+  }
+  .droite::before {
+    display: none;
+  }
+}
+@media all and (max-width: 640px) {
+  .lesnones {
+    display: none;
+  }
+  .larow {
+    display: flex;
+    flex-direction: column;
+  }
+  .contactezparmail {
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+    margin-right: 0;
+  }
+} ;
